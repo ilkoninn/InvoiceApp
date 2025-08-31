@@ -160,3 +160,4 @@ C:\Users\receb\OneDrive\Desktop\InvoiceApp\InvoiceApp.API\obj\Debug\net8.0\refin
 C:\Users\receb\OneDrive\Desktop\InvoiceApp\InvoiceApp.API\obj\Debug\net8.0\InvoiceApp.API.pdb
 C:\Users\receb\OneDrive\Desktop\InvoiceApp\InvoiceApp.API\obj\Debug\net8.0\InvoiceApp.API.genruntimeconfig.cache
 C:\Users\receb\OneDrive\Desktop\InvoiceApp\InvoiceApp.API\obj\Debug\net8.0\ref\InvoiceApp.API.dll
+C:\Users\receb\OneDrive\Desktop\InvoiceApp\InvoiceApp.API\obj\Debug\net8.0\InvoiceApp.API.sourcelink.json

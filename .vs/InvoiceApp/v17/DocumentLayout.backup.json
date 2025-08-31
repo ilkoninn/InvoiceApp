@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|c:\\users\\receb\\onedrive\\desktop\\invoiceapp\\invoiceapp.api\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|solutionrelative:invoiceapp.api\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|c:\\users\\receb\\onedrive\\desktop\\invoiceapp\\invoiceapp.api\\entities\\commons\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|solutionrelative:invoiceapp.api\\entities\\commons\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|c:\\users\\receb\\onedrive\\desktop\\invoiceapp\\invoiceapp.api\\services\\implementations\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|solutionrelative:invoiceapp.api\\services\\implementations\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|c:\\users\\receb\\onedrive\\desktop\\invoiceapp\\invoiceapp.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|solutionrelative:invoiceapp.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|c:\\users\\receb\\onedrive\\desktop\\invoiceapp\\invoiceapp.api\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|solutionrelative:invoiceapp.api\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|c:\\users\\receb\\onedrive\\desktop\\invoiceapp\\invoiceapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|solutionrelative:invoiceapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|c:\\users\\receb\\onedrive\\desktop\\invoiceapp\\invoiceapp.api\\services\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|solutionrelative:invoiceapp.api\\services\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|c:\\users\\receb\\onedrive\\desktop\\invoiceapp\\invoiceapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|solutionrelative:invoiceapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|c:\\users\\receb\\onedrive\\desktop\\invoiceapp\\invoiceapp.api\\dtos\\authdtos\\jwtrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|solutionrelative:invoiceapp.api\\dtos\\authdtos\\jwtrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|c:\\users\\receb\\onedrive\\desktop\\invoiceapp\\invoiceapp.api\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5486DA45-9C0B-47AC-9058-EEAA2C876D49}|InvoiceApp.API\\InvoiceApp.API.csproj|solutionrelative:invoiceapp.api\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Entities\\Commons\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "InvoiceApp.API\\Entities\\Commons\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Entities\\Commons\\BaseEntity.cs",
-              "RelativeToolTip": "InvoiceApp.API\\Entities\\Commons\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T20:12:26.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\DAL\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "InvoiceApp.API\\DAL\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\DAL\\AppDbContext.cs",
-              "RelativeToolTip": "InvoiceApp.API\\DAL\\AppDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T20:07:45.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "InvoiceApp.API\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "InvoiceApp.API\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAowCYAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T20:02:44.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Program.cs",
               "RelativeDocumentMoniker": "InvoiceApp.API\\Program.cs",
               "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Program.cs",
               "RelativeToolTip": "InvoiceApp.API\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T19:59:00.616Z",
+              "WhenOpened": "2025-08-31T18:50:45.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ICustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Services\\Interfaces\\ICustomerService.cs",
-              "RelativeDocumentMoniker": "InvoiceApp.API\\Services\\Interfaces\\ICustomerService.cs",
-              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Services\\Interfaces\\ICustomerService.cs",
-              "RelativeToolTip": "InvoiceApp.API\\Services\\Interfaces\\ICustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "JwtRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\DTOs\\AuthDTOs\\JwtRequestDTO.cs",
+              "RelativeDocumentMoniker": "InvoiceApp.API\\DTOs\\AuthDTOs\\JwtRequestDTO.cs",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\DTOs\\AuthDTOs\\JwtRequestDTO.cs",
+              "RelativeToolTip": "InvoiceApp.API\\DTOs\\AuthDTOs\\JwtRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T19:32:24.573Z",
+              "WhenOpened": "2025-08-31T18:48:25.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "InvoiceApp.API\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "InvoiceApp.API\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T18:48:01.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Services\\Implementations\\CustomerService.cs",
-              "RelativeDocumentMoniker": "InvoiceApp.API\\Services\\Implementations\\CustomerService.cs",
-              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Services\\Implementations\\CustomerService.cs",
-              "RelativeToolTip": "InvoiceApp.API\\Services\\Implementations\\CustomerService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAAAuAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "InvoiceApp.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "InvoiceApp.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwC4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T19:19:48.498Z",
+              "WhenOpened": "2025-08-31T18:47:13.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "InvoiceApp.API\\Services\\Implementations\\AuthService.cs",
+              "ToolTip": "C:\\Users\\receb\\OneDrive\\Desktop\\InvoiceApp\\InvoiceApp.API\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "InvoiceApp.API\\Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T18:38:16.665Z",
               "EditorCaption": ""
             }
           ]
