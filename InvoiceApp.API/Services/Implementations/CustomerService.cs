@@ -4,6 +4,7 @@ using InvoiceApp.API.DTOs.CustomerDTOs;
 using InvoiceApp.API.Entities;
 using InvoiceApp.API.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace InvoiceApp.API.Services.Implementations
 {
@@ -30,9 +31,12 @@ namespace InvoiceApp.API.Services.Implementations
             return _mapper.Map<CustomerDTO>(customer);
         }
 
-        public bool Delete(int id)
+        public async Task<bool> DeleteAsync(int id)
         {
-            var result = _context.Customers.Remove(new Customer { Id = id });
+            var entity = await _context.Customers.FirstOrDefaultAsync(x => x.Id == id);
+            
+            var result = _context.Customers.Remove(entity);
+            await _context.SaveChangesAsync();
 
             return result != null;
         }

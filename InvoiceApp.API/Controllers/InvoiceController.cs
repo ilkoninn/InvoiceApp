@@ -2,6 +2,7 @@
 using InvoiceApp.API.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace InvoiceApp.API.Controllers
 {
@@ -61,9 +62,9 @@ namespace InvoiceApp.API.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var result = _customerService.Delete(id);
+            var result = await _customerService.DeleteAsync(id);
 
             if (!result)
                 return NotFound();

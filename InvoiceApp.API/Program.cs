@@ -28,6 +28,8 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<IInvoiceService, InvoiceService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IClaimService, ClaimService>();
+builder.Services.AddHttpContextAccessor();
 
 // SQL Database Connection
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");

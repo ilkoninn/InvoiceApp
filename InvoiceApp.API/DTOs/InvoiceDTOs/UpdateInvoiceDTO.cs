@@ -3,10 +3,8 @@
     public class UpdateInvoiceDTO
     {
         public DateTime InvoiceDate { get; set; }
-        public decimal TotalAmount { get; set; }
         public string DeliveryAddress { get; set; }
         public decimal Tax { get; set; }
-        public decimal NetTotal { get; set; }
 
         public int CustomerId { get; set; }
 

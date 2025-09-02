@@ -503,19 +503,11 @@
             "type": "string",
             "format": "date-time"
           },
-          "totalAmount": {
-            "type": "number",
-            "format": "double"
-          },
           "deliveryAddress": {
             "type": "string",
             "nullable": true
           },
           "tax": {
-            "type": "number",
-            "format": "double"
-          },
-          "netTotal": {
             "type": "number",
             "format": "double"
           },

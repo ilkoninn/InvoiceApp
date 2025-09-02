@@ -5,7 +5,7 @@ namespace InvoiceApp.API.Services.Interfaces
     public interface IInvoiceService
     {
         IEnumerable<InvoiceDTO> GetAll();
-        bool Delete(int id);
+        Task<bool> DeleteAsync(int id);
 
         Task<InvoiceDTO> GetByIdAsync(int id);
         Task<InvoiceDTO> CreateAsync(CreateInvoiceDTO dto);

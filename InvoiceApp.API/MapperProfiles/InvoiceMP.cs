@@ -10,7 +10,10 @@ namespace InvoiceApp.API.MapperProfiles
         {
             CreateMap<Invoice, InvoiceDTO>()
                 .ForMember(dest => dest.CustomerName, opt => opt.MapFrom(src => src.Customer.Title))
+                .ForMember(dest => dest.InvoiceLines, opt => opt.MapFrom(src => src.InvoiceLines))
                 .ReverseMap();
+
+            CreateMap<InvoiceLine, InvoiceLineDTO>().ReverseMap();
 
             CreateMap<Invoice, CreateInvoiceDTO>().ReverseMap();
             CreateMap<InvoiceLine, CreateInvoiceLineDTO>().ReverseMap();
@@ -19,4 +22,5 @@ namespace InvoiceApp.API.MapperProfiles
             CreateMap<InvoiceLine, UpdateInvoiceLineDTO>().ReverseMap();
         }
     }
+
 }
