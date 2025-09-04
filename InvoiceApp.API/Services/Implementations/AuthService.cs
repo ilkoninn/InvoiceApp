@@ -32,7 +32,7 @@ namespace InvoiceApp.API.Services.Implementations
                 user = await _userManager.FindByNameAsync(dto.UsernameOrEmail);
 
             if (user == null || !await _userManager.CheckPasswordAsync(user, dto.Password))
-                throw new UnauthorizedAccessException("Email or password is incorrect.");
+                throw new UnauthorizedAccessException("Email/Username or password is incorrect.");
 
             var roles = await _userManager.GetRolesAsync(user);
             var role = roles.FirstOrDefault() ?? "RoleError";

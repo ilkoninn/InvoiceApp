@@ -2,6 +2,7 @@
 using InvoiceApp.API.DAL;
 using InvoiceApp.API.DTOs.CustomerDTOs;
 using InvoiceApp.API.Entities;
+using InvoiceApp.API.MapperProfiles;
 using InvoiceApp.API.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
@@ -23,9 +24,10 @@ namespace InvoiceApp.API.Services.Implementations
         {
             var customer = _mapper.Map<Customer>(dto);
 
-            customer.TaxNumber = await GenerateTaxNumber();
-
             await _context.Customers.AddAsync(customer);
+            await _context.SaveChangesAsync();
+
+            customer.TaxNumber = $"Tax-{customer.Id:D6}";
             await _context.SaveChangesAsync();
 
             return _mapper.Map<CustomerDTO>(customer);
